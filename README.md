@@ -4,6 +4,7 @@ Spiral time was a 2am idea for a fancy watch and has nothing to do with spirals.
 
 ## Usage
 For any datetime:
+
 ```python
 from datetime import datetime
 from pyspiral import spiraltime
@@ -16,6 +17,7 @@ print spiraltime(someTime)
 As a shortcut for the current spiral time you can use ```spiralnow()```
 
 To display the graphical clock:
+
 ```python
 from pyspiral import SpiralClock
 x = new SpiralClock()
